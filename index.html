@@ -11,9 +11,9 @@
       <div id="bank-site">
         <h2 class="text-center">Welcome To TD Bank</h2>
           <div class="login-area">
-              <input type="text" name="" id="" class="form-control" placeholder="Email">
+              <input type="text"  class="form-control" placeholder="Email">
               <br>
-              <input type="password" name="" id="" class="form-control" placeholder="Password">
+              <input type="password"  class="form-control" placeholder="Password">
               <br>
               <button id="login-btn" class="btn btn-success">Enter</button>
           </div>
@@ -23,7 +23,7 @@
              <div class="col-md-4">
                  <div class="deposit status">
                     <h5>Deposit</h5>
-                    <h3>$ 00</h3>
+                    <h3 id="new-deposit"> 00</h3>
                  </div>
              </div>
              <div class="col-md-4">
@@ -35,25 +35,25 @@
              <div class="col-md-4">
                  <div class="balance status">
                     <h5>Balance</h5>
-                    <h3>$ 1240</h3>
+                    <h3 id="new-balance">1240</h3>
                  </div>
              </div>
          </div>
          <div class="row money-area">
              <div class="col-md-6">
-                 <div class="add-deposit add-money">
+                 <div class="add-money">
                     <h5>Deposit</h5>
-                    <input type="text" class="form-control">
+                    <input id="dep-amount" type="text" class="form-control">
                     <br>
-                    <button class="btn btn-success">Enter</button>
+                    <button id="deposit-btn" class="btn btn-success">Deposit</button>
                  </div>
              </div>
              <div class="col-md-6">
-                 <div class="add-withdraw add-money">
+                 <div class="add-money">
                     <h5>Widthraw</h5>
                     <input type="text" class="form-control">
                     <br>
-                    <button class="btn btn-success">Enter</button>
+                    <button class="btn btn-success">Widthraw</button>
                  </div>
              </div>
          </div>
